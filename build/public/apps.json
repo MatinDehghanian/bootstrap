@@ -1,0 +1,202 @@
+{
+  "android": {
+    "tutorialVideo": "https://www.youtube.com/watch?v=android-tutorial",
+    "apps": [
+      {
+        "key": "v2rayng",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/v2rayNG.png",
+        "name": {
+          "en": "V2rayNG",
+          "fa": "V2rayNG"
+        },
+        "description": {
+          "en": "A V2Ray client for Android devices.",
+          "fa": "V2rayNG یک کلاینت V2Ray برای دستگاه‌های اندرویدی است."
+        },
+        "tags": {
+          "en": ["V2rayNG", "Recommended"],
+          "fa": ["وی تو ری ان جی", "پیشنهادی"]
+        },
+        "isRecommended": true,
+        "downloadUrl": "https://github.com/2dust/v2rayNG/releases/latest",
+        "importScheme": "v2rayng://install-config?url={url}&name=MattDev-{username}",
+        "hasCustomSteps": true
+      },
+      {
+        "key": "singbox",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/singbox.png",
+        "name": {
+          "en": "SingBox",
+          "fa": "SingBox"
+        },
+        "description": {
+          "en": "A client that provides a platform for routing traffic securely.",
+          "fa": "Sing-box یک کلاینت برای مسیریابی امن ترافیک فراهم می‌کند."
+        },
+        "tags": {
+          "en": ["SingBox"],
+          "fa": ["سینگ باکس"]
+        },
+        "isRecommended": false,
+        "downloadUrl": "https://play.google.com/store/apps/details?id=io.nekohasekai.sfa&hl=en",
+        "importScheme": "sing-box://import-remote-profile?url={url}#MattDev-{username}",
+        "hasCustomSteps": false
+      },
+      {
+        "key": "v2box",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/v2box.png",
+        "name": {
+          "en": "V2box",
+          "fa": "V2box"
+        },
+        "description": {
+          "en": "A cross-platform V2Ray client.",
+          "fa": "V2Box یک کلاینت V2Ray چندسکویی است."
+        },
+        "tags": {
+          "en": ["V2box"],
+          "fa": ["وی تو باکس"]
+        },
+        "isRecommended": false,
+        "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+        "importScheme": "v2box://install-sub?url={url}&name=MattDev-{username}",
+        "hasCustomSteps": true
+      }
+    ]
+  },
+  "ios": {
+    "tutorialVideo": "https://www.youtube.com/watch?v=ios-tutorial",
+    "apps": [
+      {
+        "key": "streisand",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/streisand.jpg",
+        "name": {
+          "en": "Streisand",
+          "fa": "Streisand"
+        },
+        "description": {
+          "en": "Streisand sets up a new server running a wide variety of anti-censorship software.",
+          "fa": "استرایزند یک سرور جدید با نرم‌افزارهای متنوع ضد سانسور راه‌اندازی می‌کند."
+        },
+        "tags": {
+          "en": ["Streisand", "Recommended"],
+          "fa": ["استریسند", "پیشنهادی"]
+        },
+        "isRecommended": true,
+        "downloadUrl": "https://apps.apple.com/us/app/streisand/id6450534064",
+        "importScheme": "streisand://import/{url}#MattDev-{username}",
+        "hasCustomSteps": true
+      },
+      {
+        "key": "singbox",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/singbox.png",
+        "name": {
+          "en": "SingBox",
+          "fa": "SingBox"
+        },
+        "description": {
+          "en": "A client that provides a platform for routing traffic securely.",
+          "fa": "Sing-box یک کلاینت برای مسیریابی امن ترافیک فراهم می‌کند."
+        },
+        "tags": {
+          "en": ["SingBox"],
+          "fa": ["سینگ باکس"]
+        },
+        "isRecommended": false,
+        "downloadUrl": "https://apps.apple.com/us/app/sing-box-vt/id6673731168",
+        "importScheme": "sing-box://import-remote-profile?url={url}#MattDev-{username}",
+        "hasCustomSteps": false
+      },
+      {
+        "key": "shadowrocket",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/shadowrocket.png",
+        "name": {
+          "en": "Shadowrocket",
+          "fa": "Shadowrocket"
+        },
+        "description": {
+          "en": "A rule-based proxy utility client for iOS.",
+          "fa": "Shadowrocket یک ابزار پروکسی قانون‌محور برای iOS است."
+        },
+        "tags": {
+          "en": ["Shadowrocket", "Recommended", "Paid"],
+          "fa": ["شدو راکت", "پیشنهادی", "پولی"]
+        },
+        "isRecommended": true,
+        "downloadUrl": "https://apps.apple.com/us/app/shadowrocket/id932747118",
+        "importScheme": "shadowrocket://add/{url}?remark=MattDev-{username}",
+        "hasCustomSteps": false
+      },
+      {
+        "key": "v2box",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/v2box.png",
+        "name": {
+          "en": "V2box",
+          "fa": "V2box"
+        },
+        "description": {
+          "en": "A cross-platform V2Ray client.",
+          "fa": "V2Box یک کلاینت V2Ray چندسکویی است."
+        },
+        "tags": {
+          "en": ["V2box"],
+          "fa": ["وی تو باکس"]
+        },
+        "isRecommended": false,
+        "downloadUrl": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+        "importScheme": "v2box://install-sub?url={url}&name=MattDev-{username}",
+        "hasCustomSteps": true
+      }
+    ]
+  },
+  "windows": {
+    "tutorialVideo": "https://www.youtube.com/watch?v=windows-tutorial",
+    "apps": [
+      {
+        "key": "flclash",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/flclash.jpeg",
+        "name": {
+          "en": "FlClash",
+          "fa": "FlClash"
+        },
+        "description": {
+          "en": "A cross-platform GUI client for V2Ray.",
+          "fa": "Flclash یک کلاینت GUI چندسکویی برای V2Ray است."
+        },
+        "tags": {
+          "en": ["FlClash", "Recommended"],
+          "fa": ["اف ال کلش", "پیشنهادی"]
+        },
+        "isRecommended": true,
+        "downloadUrl": "https://github.com/chen08209/FlClash/releases/latest",
+        "hasCustomSteps": false
+      },
+      {
+        "key": "v2rayn",
+        "icon": "https://raw.githubusercontent.com/MatinDehghanian/public-assets/refs/heads/main/icons/v2rayN.png",
+        "name": {
+          "en": "V2rayN",
+          "fa": "V2rayN"
+        },
+        "description": {
+          "en": "A Windows V2Ray client with GUI support.",
+          "fa": "v2rayN یک کلاینت V2Ray برای ویندوز با پشتیبانی از رابط کاربری است."
+        },
+        "tags": {
+          "en": ["V2rayN"],
+          "fa": ["وی تو ری ان"]
+        },
+        "isRecommended": false,
+        "downloadUrl": "https://github.com/2dust/v2rayN/releases/latest",
+        "importScheme": "v2rayn://add-servers?url={url}&name=MattDev-{username}",
+        "hasCustomSteps": false
+      }
+    ]
+  },
+  "emergencyConfig": {
+    "url": "https://emergency-config-url.com/config",
+    "enabled": false
+  },
+  "supportLink": "",
+  "broadcastChannelLink": ""
+}
